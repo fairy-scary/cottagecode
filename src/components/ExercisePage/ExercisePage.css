@@ -1,0 +1,52 @@
+@import '../../index.css'
+
+a {
+    color: whitesmoke;
+}
+ 
+.left-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+    gap: 10px 0px;
+    grid-template-areas:
+    "exercise"
+    "buttons"
+    "hint";
+    grid-area: left-side;
+    padding: 20px 0px 0px 20px;
+ }
+
+ .exercise {
+    grid-area: exercise;
+ }
+
+ .buttons {
+    grid-area: buttons;
+ }
+
+ .hint {
+    grid-area: hint;
+ }
+
+ .right-side {
+     grid-area: right-side;
+ }
+
+ .editor-window {
+   align-content: center;
+ }
+
+ .splitscreen {
+    display: grid;
+    grid-template-columns: .8fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 15px;
+    grid-template-areas:
+      "left-side right-side";
+ }
+
+ .code-editor {
+    width: auto;
+    margin: 0px;
+ }

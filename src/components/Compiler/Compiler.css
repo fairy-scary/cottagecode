@@ -1,0 +1,32 @@
+.compiler-container {
+  width: 95%;
+  padding: 20px;
+  align-content: center;
+}
+
+
+  .heading {
+    font-size: 20px;
+  }
+  #source {
+    width: 100% !important;
+    background: #cccccc52;
+    height: 50vh;
+    font-size: 15px;
+    resize: vertical;
+  }
+  #input {
+    background: #cccccc52;
+  }
+
+  #output {
+    width: 100% !important;
+    background: #cccccc52;
+    height: 50vh;
+    font-size: 15px;
+    resize: vertical;
+  }
+
+.button-row {
+  background: #cccccc52;
+}

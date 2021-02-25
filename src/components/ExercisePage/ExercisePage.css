@@ -21,9 +21,6 @@ a {
     grid-area: exercise;
  }
 
- .buttons {
-    grid-area: buttons;
- }
 
  .hint {
     grid-area: hint;
@@ -39,11 +36,11 @@ a {
 
  .splitscreen {
     display: grid;
-    grid-template-columns: .8fr 1.2fr;
+    grid-template-columns: 1fr 1fr .25fr;
     grid-template-rows: 1fr;
     gap: 0px 15px;
     grid-template-areas:
-      "left-side right-side";
+      "left-side right-side ";
  }
 
  .code-editor {

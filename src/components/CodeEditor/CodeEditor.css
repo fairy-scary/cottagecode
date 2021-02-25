@@ -1,5 +1,21 @@
 
-  
+.ace_content {
+    padding-top: 10px;
+}
 
- 
-  
+.ace_gutter-layer {
+    margin-top: 10px; 
+}
+
+.editor-container {
+    width:600px;   
+}
+
+.output-container {
+    height: 150px;
+    width: auto;
+}
+
+.editor-run-button {
+    float: right;
+}

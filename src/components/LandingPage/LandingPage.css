@@ -7,7 +7,7 @@ a {
 h1 {
     font-family: Bruntsfield, serif;
     font-size: 130px;
-    color: whitesmoke;
+    color: beige;
     text-align: center;
     line-height: 110px;
     text-shadow: 4px 4px 10px #1C2A24;
@@ -43,7 +43,7 @@ h1 {
 .tagline {
     font-family: Domine, sans-serif;
     font-size: 33.5px;
-    color: whitesmoke;
+    color: beige;
     text-shadow: 2px 3px 3px #1C2A24;
 }
 
@@ -51,7 +51,7 @@ h1 {
     text-align: center;
     font-size: 23px;
     font-family: Cormorant, serif;
-    color: whitesmoke;
+    color: antiquewhite;
     text-shadow: 1px 1px 0px #1C2A24;
 }
 
@@ -59,7 +59,7 @@ h1 {
     
     width: 800px;
     font-family: Bruntsfield, sans-serif;
-    color: whitesmoke;
+    color: beige;
     font-size: 80px;
     padding-top: 30px;
     display: flex;

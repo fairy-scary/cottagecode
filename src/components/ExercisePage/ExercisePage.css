@@ -7,12 +7,12 @@ a {
 .left-side {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-template-rows: .5fr .53fr .4fr .17fr;
     gap: 10px 0px;
     grid-template-areas:
     "exercise"
-    "buttons"
-    "hint";
+    "consoleLog"
+    "solution";
     grid-area: left-side;
     padding: 20px 0px 0px 20px;
  }
@@ -21,29 +21,87 @@ a {
     grid-area: exercise;
  }
 
-
- .hint {
-    grid-area: hint;
+ .left-sections {
+   padding: 0px 10px 0px 10px;
+   border-radius: 15px;
+   font-family: 'Domine';
+   font-size: 15px;
+   font-weight: bold;
  }
 
- .right-side {
-     grid-area: right-side;
+ .e1 {
+   color: #EBDAB4;
+   background-color: rgba(29, 32, 33, 0.7);
  }
 
- .editor-window {
-   align-content: center;
+ .e2 {
+   color: #DCE1F2;
+   background-color: rgba(3, 9, 22, 0.7);
  }
 
- .splitscreen {
-    display: grid;
-    grid-template-columns: 1fr 1fr .25fr;
-    grid-template-rows: 1fr;
-    gap: 0px 15px;
-    grid-template-areas:
-      "left-side right-side ";
+ .e3 {
+
  }
 
- .code-editor {
-    width: auto;
-    margin: 0px;
+ .left-side h2 {
+    font-family: 'Bruntsfield';
+    color: beige;
+    line-height: 1px;
+    font-size: 37px;
+
  }
+.consoleLog {
+   grid-area: consoleLog;
+}
+
+.solution {
+   grid-area: solution;
+}
+
+.right-side {
+   grid-area: right-side;
+}
+
+.editor-window {
+align-content: center;
+}
+
+.splitscreen {
+   display: grid;
+   grid-template-columns: 1fr 1fr .10fr;
+   grid-template-rows: 1fr;
+   gap: 0px 15px;
+   grid-template-areas:
+   "left-side right-side ";
+   height: 100vh;
+   
+}
+
+.code-editor {
+   width: auto;
+   margin: 0px;
+}
+
+.exercise1 {
+   background-image: url("./annie-spratt-l9oA-MIbUvc-unsplash.jpg");
+   background-size: cover;
+}
+
+.exercise2 {
+   background-image: url("./john-moore-Fdhyrhb9x7o-unsplash.jpg");
+   background-size: cover;
+}
+
+.code-text {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #FCEFD4;
+   background-color: #1D2021;
+   padding: 3px;
+}
+
+.code-text2 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #CEB1C8;
+   background-color: #2E3440;
+   padding: 3px;
+}

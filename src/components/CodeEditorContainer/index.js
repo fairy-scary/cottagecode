@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import CodeEditor from '../CodeEditor'
 
 
-function CodeEditorContainer() {
+function CodeEditorContainer(props) {
 
  
 
   return (
     <div className="compiler-container">
-       <CodeEditor />
+       <CodeEditor theme={props.theme} outputstyle={props.outputstyle} runbuttonstyle={props.runbuttonstyle}/>
     </div>
   );
 }

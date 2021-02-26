@@ -9,7 +9,7 @@
 
 .editor-container {
     width:600px;   
-}
+}95%
 
 .output-container {
     height: 150px;
@@ -18,4 +18,91 @@
 
 .editor-run-button {
     float: right;
+    box-shadow: 3px 6px 6px 1px #1D2021;
+    background:linear-gradient(to bottom, #da4338 5%, #704b69 100%);
+    background-color:#da4338;
+    border-radius:42px;
+    display:inline-block;
+    cursor:pointer;
+    color:#EBDAB4;
+    font-family: 'Bruntsfield';
+    font-size:30px;
+    padding:17px 22px;
+    border: none;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #810e05;
+    margin-left: 10px;
 }
+
+.editor-reveal-button {
+    float: left;
+    box-shadow: 3px 6px 6px 1px #1D2021;
+    background:linear-gradient(to bottom, #da4338 5%, #704b69 100%);
+    background-color:#da4338;
+    border-radius:42px;
+    display:inline-block;
+    cursor:pointer;
+    color:#EBDAB4;
+    font-family: 'Bruntsfield';
+    font-size:30px;
+    padding:10px 18px;
+    border: none;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #810e05;
+}
+
+.editor-reveal-button2 {
+  float: left;
+  box-shadow: 3px 6px 6px 1px #030916;
+  background:linear-gradient(to bottom, #838DAF 5%, #704b69 100%);
+  background-color:#838DAF;
+  border-radius:42px;
+  display:inline-block;
+  cursor:pointer;
+  color: #DCE1F2;
+  font-family: 'Bruntsfield';
+  font-size:30px;
+  padding:10px 18px;
+  border: none;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #810e05;
+}
+
+.compiler-container {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-content: center;
+  }
+  
+  .heading {
+    font-size: 20px;
+  }
+  
+  #source {
+    width: 100% !important;
+    background: #cccccc52;
+    height: 50vh;
+    font-size: 15px;
+    resize: vertical;
+  }
+  
+  #input {
+    background: #cccccc52;
+  }
+  
+  #output {
+    width: 580px !important;
+    background: #A63A31;
+    font-family: 'Domine';
+    padding: 10px;
+    border: none;
+    color: #FCEFD4;
+    height: 150px;
+    font-size: 17px;
+    resize: vertical;
+  }
+  
+  .button-row {
+    background: #cccccc52;
+  }

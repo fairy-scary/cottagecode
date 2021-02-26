@@ -5,9 +5,9 @@ import AceEditor from 'react-ace';
 import "ace-builds/src-noconflict/mode-javascript";
 import "ace-builds/src-noconflict/theme-monokai";
 
-const CodeEditor = () => {
+
+const CodeEditor = (props) => {
   const [input, setInput] = useState("");
- 
     const submit = async (e) => {
         e.preventDefault();
         let outputText = document.getElementById("output");
@@ -75,7 +75,7 @@ const CodeEditor = () => {
     
           outputText.innerHTML = "";
     
-          outputText.innerHTML += `Results : ${output}\nExecution Time : ${jsonGetSolution.time} Secs\nMemory used : ${jsonGetSolution.memory} bytes`;
+          outputText.innerHTML += `Results : \n${output}\nExecution Time : ${jsonGetSolution.time} Secs\nMemory used : ${jsonGetSolution.memory} bytes`;
 
         //error-handling  
         } else if (jsonGetSolution.stderr) {
@@ -102,7 +102,7 @@ const CodeEditor = () => {
       <AceEditor 
       className="editor-container"
       mode="javascript"
-      theme="monokai"
+      theme={props.theme}
       name="solution"
       id="source"
       onChange={setInput}
@@ -119,14 +119,16 @@ const CodeEditor = () => {
         tabSize: 3
       }} />
     
-       <div className="output-container">
-      <textarea id="output"></textarea>
+      <div className="output-container">
+        <textarea id="output" style={props.outputstyle}></textarea>
       </div>
       </div>
-      <div className="editor-run-button">
-      <button
+      <div>
+          <button
             type="submit"
             onClick={submit}
+            className="editor-run-button"
+            style={props.runbuttonstyle}
           >
           Run
           </button>

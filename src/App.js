@@ -1,7 +1,10 @@
 import { Route, Switch } from "react-router-dom";
 import LandingPage from "./components/LandingPage";
 import ExercisePage from "./components/ExercisePage";
-import CompilerTestPage from "./components/Compiler"
+import ExercisePage2 from "./components/ExercisePage/two";
+import ExercisePage3 from "./components/ExercisePage/three";
+
+
 
 function App() {
   return (
@@ -13,8 +16,11 @@ function App() {
         <Route exact path="/1">
           <ExercisePage />
         </Route>
-        <Route exact path="/compilertest">
-          <CompilerTestPage />
+        <Route exact path="/2">
+          <ExercisePage2 />
+        </Route>
+        <Route exact path="/3">
+          <ExercisePage3 />
         </Route>
       </Switch>
     </div>

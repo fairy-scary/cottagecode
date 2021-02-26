@@ -9,17 +9,16 @@ const ExercisePage2 = () => {
         <div className="splitscreen exercise2">
             <div className="left-side">
                 <div className="exercise left-sections e2">
-                    <h2>Level 2: Moon Water</h2>
-                    <p>Write a JavaScript function "AppleBasket" that takes in a quantity of apples you've just picked near your off-grid glamping yurt as an argument and returns the total number of apples in your basket, if you had already picked 10 apples.</p>                
+                    <h2>Level 2: Sum Triple</h2>
+                    <p>Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum.</p>                
                 </div>
                 <div className="consoleLog left-sections e2">
                 <h2>The Console Log</h2> 
                     <p>Copy/paste the following code after your solution and click "Run" to see if you've solved it!</p>
                     <br/>
                     <span className="code-text2">
-                        console.log(AppleBasket(32)); //==> 42<br/>
-                        console.log(AppleBasket(10)); //==> 20<br/>
-                        console.log(AppleBasket(0));  //==> 10 
+                    console.log(sumTriple(10, 20));<br/>
+                    console.log(sumTriple(10, 10)); 
                     </span>                       
                 </div>
                 <div className="solution left-sections e2" >

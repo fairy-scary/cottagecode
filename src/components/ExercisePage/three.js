@@ -10,15 +10,15 @@ const ExercisePage3 = () => {
             <div className="left-side">
                 <div className="exercise left-sections e3">
                     <h2>Level 3: Word Mushies</h2>
-                    <p>Write a JavaScript function to find the shortest possible string which can create a string to make it a palindrome by adding characters to the end of it.</p>                
+                    <p>Write a JavaScript function "WordMushies" to find the shortest possible string which can create a string to make it a palindrome by adding characters to the end of it.</p>                
                 </div>
                 <div className="consoleLog left-sections e3">
                 <h2>The Console Log</h2> 
                     <p>Copy/paste the following code after your solution and click "Run" to see if you've solved it!</p>
                     <br/>
                     <span className="code-text3">
-                        console.log(build_Palindrome("abcddc"));
-                        console.log(build_Palindrome("122"));
+                        console.log(WordMushies("abcddc"));<br/>
+                        console.log(WordMushies("122"));
                     </span>                       
                 </div>
                 <div className="solution left-sections e3" >

@@ -40,7 +40,8 @@ a {
  }
 
  .e3 {
-
+   background-color: rgb(34, 44, 40, 0.6);
+   color: #CBD6CE;
  }
 
  .left-side h2 {
@@ -92,6 +93,11 @@ align-content: center;
    background-size: cover;
 }
 
+.exercise3 {
+   background-image: url("./igor-yemelianov-2zf9OjuoqQk-unsplash.jpg");
+   background-size: cover;
+}
+
 .code-text {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color: #FCEFD4;
@@ -103,5 +109,12 @@ align-content: center;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color: #CEB1C8;
    background-color: #2E3440;
+   padding: 3px;
+}
+
+.code-text3{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #CBD6CE;
+   background-color: #222C28;
    padding: 3px;
 }

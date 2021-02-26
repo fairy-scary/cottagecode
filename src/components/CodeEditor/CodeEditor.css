@@ -68,6 +68,22 @@
   text-shadow: 0px 0px 0px #810e05;
 }
 
+.editor-reveal-button3 {
+  float: left;
+  box-shadow: 3px 6px 6px 1px #191F1C;
+  background:linear-gradient(to bottom, #CE801A 5%, #531516 100%);
+  background-color:#CE801A;
+  border-radius:42px;
+  display:inline-block;
+  cursor:pointer;
+  color: #CBD6CE;
+  font-family: 'Bruntsfield';
+  font-size:30px;
+  padding:10px 18px;
+  border: none;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #810e05;
+}
 .compiler-container {
     width: 100%;
     display: flex;

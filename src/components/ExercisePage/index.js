@@ -23,7 +23,7 @@ const ExercisePage = () => {
                         console.log(AppleBasket(0));  //==> 10 
                     </span>                       
                 </div>
-                <div className="solution left-sections e1" >
+                <div className="solution left-sections  e1" >
                     <h2>Solution</h2>
                     <button
                     className="editor-reveal-button"
